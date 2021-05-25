@@ -66,11 +66,26 @@ a:hover {
     max-height: 160px;
 }
 
-#type-space {
-    height: 34px;
-    width: 487px;
-    display: block;
+.search-bar {
+    height: 39px;
+    width: 560px;
+    border-radius: 22px;
+    display: flex;
     margin: 0 auto;
+    align-items: center;
+    border: 1px solid #dadce0;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+}
+
+#type-space {
+    height: 32px;
+    width: 487px;
+    display: flex;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
 }
 
 .space-buttons {
@@ -86,14 +101,20 @@ a:hover {
 }
 
 .buttons {
-    height: 30px;
-    max-width: 119.4px;
+    height: 32px;
+    max-width: 109px;
     text-align: center;
     background-color: rgb(248, 249, 250);
     border-radius: 4px;
     border-color: transparent;
     color: #3c4043;
     margin: 11px 4px;
+    padding: 0 16px;
+    font-size: 14px;
+}
+
+#google-button {
+    max-width: 93px;
 }
 
 .buttons:hover {
@@ -132,7 +153,7 @@ a:hover {
     background-color: rgb(242, 242, 242);
     display: flex;
     justify-content: space-between;
-    padding: 16px 20px;
+    padding: 13px 20px;
 }
 
 .footer2-text {
