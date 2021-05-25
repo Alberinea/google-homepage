@@ -1,5 +1,5 @@
 html, body {
-    margin: 0;
+    margin: 0 auto;
     height: 100%;
     padding: 0;
 }
@@ -25,4 +25,43 @@ html, body {
 .bottom-center {
     padding: 20px;
     max-height: 160px;
+}
+
+#type-space {
+    height: 34px;
+    width: 487px;
+    display: block;
+    margin: 0 auto;
+}
+
+.space-buttons {
+    padding-top: 18px;
+}
+
+.center-buttons {
+    height: 58px;
+    width: 584px;
+    display: block;
+    margin: 0 auto;
+    text-align:center;
+}
+
+.buttons {
+    height: 30px;
+    max-width: 119.4px;
+    text-align: center;
+    background-color: rgb(248, 249, 250);
+    border-radius: 4px;
+    border-color: transparent;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #3c4043;
+    margin: 11px 4px;
+}
+
+.buttons:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
 }
