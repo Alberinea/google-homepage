@@ -4,8 +4,25 @@ html, body {
     padding: 0;
 }
 
+.header {
+    height: 48px;
+}
+
 .center {
     display: flex;
-    margin: auto;
     justify-content: center;
+    min-height: 92px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+}
+
+#logo {
+    width: 272px;
+    height: 92px;
+    margin-top: auto;
+}
+
+.bottom-center {
+    padding: 20px;
+    max-height: 160px;
 }
