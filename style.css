@@ -9,6 +9,7 @@ html, body {
 
 a {
     text-decoration: none;
+    color: rgba(0,0,0,0.87);
 }
 
 a:hover {
@@ -17,7 +18,33 @@ a:hover {
 
 .header {
     height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 15px;
     box-sizing: border-box;
+    font-size: 13px;
+}
+
+.header-text {
+    padding-right: 15px;
+}
+
+#gmail-icon {
+    height: 32px;
+    width: 32px;
+}
+
+.image {
+    padding: 8px;
+    border-radius: 33px;
+    display: flex;
+    flex: 0 1 auto;
+}
+
+.image:hover {
+    background-color: #f4f5f7;
+    text-decoration: none;
 }
 
 .center {
