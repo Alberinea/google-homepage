@@ -1,10 +1,13 @@
-html, body {
-    margin: 0 auto;
-    height: 100%;
+html body {
+    min-height: 100vh;
+    overflow: hidden;
     font-size: 14px;
     font-family: arial, sans-serif;
     color: #222;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 0;
 }
 
 a {
@@ -52,7 +55,8 @@ a:hover {
     justify-content: center;
     min-height: 92px;
     max-height: 290px;
-    height: calc(100% - 560px);
+    flex-grow: 1;
+    white-space: nowrap;
 }
 
 #logo {
@@ -62,8 +66,9 @@ a:hover {
 }
 
 .bottom-center {
-    padding: 22px;
+    padding: 20px;
     max-height: 160px;
+    box-sizing: border-box;
 }
 
 .search-bar {
@@ -125,8 +130,8 @@ a:hover {
 }
 
 .bottom {
-    height: 260px;
     text-align: center;
+    flex-grow: 1;
 }
 
 .language {
@@ -139,7 +144,8 @@ a:hover {
     border-bottom-color: rgb(218, 220, 224);
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    height: 45px;
+    display: flex;
+    margin-top: auto;
 }
 
 .footer1-text {
@@ -153,7 +159,7 @@ a:hover {
     background-color: rgb(242, 242, 242);
     display: flex;
     justify-content: space-between;
-    padding: 13px 20px;
+    padding: 15px 20px;
 }
 
 .footer2-text {
