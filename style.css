@@ -12,7 +12,7 @@ html body {
 
 a {
     text-decoration: none;
-    color: rgba(0,0,0,0.87);
+    color: rgba(0, 0, 0, 0.87);
 }
 
 a:hover {
@@ -76,11 +76,19 @@ a:hover {
     width: 560px;
     border-radius: 22px;
     display: flex;
-    margin: 0 auto;
+    margin: 5px auto;
     align-items: center;
-    border: 1px solid #dadce0;
+    border: 1px solid #dfe1e5;
     padding: 5px 8px 0 16px;
     padding-left: 14px;
+    z-index: 3;
+}
+
+.search-bar:hover {
+    box-shadow: 0 0 8px rgba(224, 217, 217, 0.842);
+    -moz-box-shadow: 0 0 8px rgba(224, 217, 217, 0.842);
+    -webkit-box-shadow: 0 0 8px rgba(224, 217, 217, 0.842);
+    -o-box-shadow: 0 0 8px rgba(224, 217, 217, 0.842);
 }
 
 #type-space {
@@ -94,7 +102,7 @@ a:hover {
 }
 
 .space-buttons {
-    padding-top: 18px;
+    padding-top: 15px;
 }
 
 .center-buttons {
@@ -102,12 +110,13 @@ a:hover {
     width: 584px;
     display: block;
     margin: 0 auto;
-    text-align:center;
+    text-align: center;
 }
 
 .buttons {
     height: 32px;
-    max-width: 109px;
+    max-width: 142px;
+    height: 36px;
     text-align: center;
     background-color: rgb(248, 249, 250);
     border-radius: 4px;
@@ -116,10 +125,11 @@ a:hover {
     margin: 11px 4px;
     padding: 0 16px;
     font-size: 14px;
+    cursor: pointer;
 }
 
 #google-button {
-    max-width: 93px;
+    max-width: 127px;
 }
 
 .buttons:hover {
@@ -134,9 +144,13 @@ a:hover {
     flex-grow: 1;
 }
 
+.language-container {
+    line-height: 28px;
+}
+
 .language {
     color: #1a0dab;
-    padding: 0 3px;
+    padding: 0px 3px;
 }
 
 .footer1 {
@@ -150,7 +164,7 @@ a:hover {
 
 .footer1-text {
     padding: 15px 30px;
-    color: rgba(0,0,0,.54);
+    color: rgba(0, 0, 0, .54);
     font-size: 15px;
     margin: 0
 }
